@@ -3,19 +3,27 @@ The review stage password is the manuscript number and we will make all codes op
 
 **Data:**
 
-**/data/2015-04-01-FULL.csv:** Example cruising taxi operations data from Chengdu, in 1/4/2015. All vehicle numbers are anonymized.
-**/data/Chengdu-link.csv:** Road network data of Chengdu, China.
+_/data/2015-04-01-FULL.csv:_ Example cruising taxi operations data from Chengdu, in 1/4/2015. All vehicle numbers are anonymized.
+
+_/data/Chengdu-link.csv:_ Road network data of Chengdu, China.
 
 **Data Processing:**
 
-**match_trip_to_node.py:** Match trips to the nodes of road network.
-**gradient_descent_speed_estimation.py:** Estimate speeds of each road segment dynamically, using historical taxi operations data.
-**MFD_Chengdu.py:** Fit and estimate the linear impact of fleet size on road speed, for Section 5.1.
-**demand_management_spatial.py:** Construct dataset with spatial characteristics of trips, for Section 5.3.
-**demand_management_temporal.py:** Construct dataset with temporal characteristics of trips, for Section 5.3.
+_match_trip_to_node.py:_ Match trips to the nodes of road network.
+
+_gradient_descent_speed_estimation.py:_ Estimate speeds of each road segment dynamically, using historical taxi operations data.
+
+_MFD_Chengdu.py:_ Fit and estimate the linear impact of fleet size on road speed, for Section 5.1.
+
+_demand_management_spatial.py:_ Construct dataset with spatial characteristics of trips, for Section 5.3.
+
+_demand_management_temporal.py:_ Construct dataset with temporal characteristics of trips, for Section 5.3.
+
 
 **Simulation:**
 
-**KM-batch-fleet.py:** Main simulation framework with control of fleet size, for Section 4, 5.1 in the article.
-**KM-batch-geofencing.py:** Simulation with geofencing policy, for Section 5.2 in the article.
-**KM-batch-demand.py:** Simulation with different demand management strategies, for Section 5.3 in the article.
+_KM-batch-fleet.py:_ Main simulation framework with control of fleet size, for Section 4, 5.1 in the article.
+
+_KM-batch-geofencing.py:_ Simulation with geofencing policy, for Section 5.2 in the article.
+
+_KM-batch-demand.py:_ Simulation with different demand management strategies, for Section 5.3 in the article.
