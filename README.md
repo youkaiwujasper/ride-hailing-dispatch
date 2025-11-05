@@ -1,4 +1,4 @@
-This repository is for the article On-Demand Mobility Services and Policy Impacts: A Case Study from Chengdu, China, which is currently under review.
+This repository is for the article _On-Demand Mobility Services and Policy Impacts: A Case Study from Chengdu, China_, which is currently under review by Transporation Research Part A.
 The review stage password is the manuscript number and we will make all codes open after being accepted.
 
 Data:
